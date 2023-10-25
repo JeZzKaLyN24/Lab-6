@@ -31,7 +31,7 @@ def encode(pw):
     return encoded_pw
 
 
-"""Making Changes!"""
+"""Deleting Changes!"""
 """Main body of program for encoding/decoding password"""
 encoding = True
 password = ''
