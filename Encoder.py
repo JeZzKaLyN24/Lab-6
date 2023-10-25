@@ -30,6 +30,13 @@ def encode(pw):
         encoded_pw += str((int(i) + 3)%10)
     return encoded_pw
 
+def decode(pw):
+    """Function for decoding passwords"""
+    decoded_pw = ""
+    for i in pw:
+        decoded_pw += str(int(i) + 10 - 3) % 10
+    return decoded_pw
+
 
 """Deleting Changes!"""
 """Main body of program for encoding/decoding password"""
